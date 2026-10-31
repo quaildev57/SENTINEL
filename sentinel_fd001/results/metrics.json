@@ -1,0 +1,47 @@
+{
+  "sensors_kept": [
+    "s2",
+    "s3",
+    "s4",
+    "s7",
+    "s8",
+    "s9",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+  ],
+  "val_rmse_all_cycles": 13.540297974230075,
+  "test": {
+    "rmse": 15.429458676956417,
+    "nasa_score": 381.25320671915733,
+    "rmse_histgb": 15.025683720122027,
+    "rmse_rf": 16.176537376567502
+  },
+  "anomaly_validation": {
+    "median_lead_cycles_before_failure": 53.5,
+    "min_lead": 26,
+    "max_lead": 144,
+    "engines_never_flagged": 0,
+    "false_flag_rate_when_RUL_gt_150": 0.0
+  },
+  "triage_test_fleet": {
+    "exact_accuracy": 0.72,
+    "within_one_level": 1.0,
+    "true_critical_engines": 25,
+    "true_critical_caught_as_critical_or_high": 1.0,
+    "true_critical_missed_as_healthy_or_watch": 0,
+    "needs_human_review": 0,
+    "orders_drafted": 62
+  },
+  "retraining_demo": {
+    "val_rmse_v1_60_engines": 13.38723767397756,
+    "val_rmse_v2_80_engines": 13.631302164292302,
+    "max_psi": 0.21357208584571893,
+    "psi_above_0.2_triggers_retrain": true
+  }
+}
